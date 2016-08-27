@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace KinoApp
 {
-    public partial class TopFilmas : ContentPage
+    public partial class Upcoming : ContentPage
     {
-        public TopFilmas()
+        public Upcoming()
         {
             InitializeComponent();
         }
