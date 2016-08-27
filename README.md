@@ -8,3 +8,6 @@
 
 # Xamarin Native authentification
 ## https://components.xamarin.com/gettingstarted/xamarin.social
+
+# Add UWP project
+## https://developer.xamarin.com/guides/xamarin-forms/platform-features/windows/installation/universal/
