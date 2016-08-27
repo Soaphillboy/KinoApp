@@ -58,6 +58,19 @@ namespace KinoApp
             };
 
             JaunasFilmasList.ItemsSource = masterPageItems;
+
+            JaunasFilmasList.ItemSelected += OnItemSelected;
+        }
+
+        public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var item = e.SelectedItem as Cinema;
+
+            if (item != null)
+            {
+                Navigation.PushAsync
+
+            }
         }
     }
 
