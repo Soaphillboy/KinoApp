@@ -41,28 +41,28 @@ namespace KinoApp
             {
                 new AllCinema()
                 {
-                    Name = "",
-                    Description = ""
+                    Name = "Gaisma",
+                    Description = "Valmiera"
                 },
                 new AllCinema()
                 {
-                    Name = "",
-                    Description = ""
+                    Name = "Silver screen",
+                    Description = "Daugavpils"
                 },
                 new AllCinema()
                 {
-                    Name = "",
-                    Description = ""
+                    Name = "Silver screen",
+                    Description = "Rezekne"
                 },
                 new AllCinema()
                 {
-                    Name = "",
-                    Description = ""
+                    Name = "Lora",
+                    Description = "Sigulda"
                 },
                 new AllCinema()
                 {
-                    Name = "",
-                    Description = ""
+                    Name = "Balle",
+                    Description = "Liepaja"
                 },
             };
 
