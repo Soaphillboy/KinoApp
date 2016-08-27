@@ -5,4 +5,5 @@
              x:Class="KinoApp.FilmasPage">
   <local:JaunasFilmas />
   <local:TopFilmas />
+  <local:Upcoming />
 </TabbedPage>

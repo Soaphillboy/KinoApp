@@ -4,7 +4,14 @@
              x:Class="KinoApp.Kinoteatri">
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand">
-      <Label Text="Rīgā" />
+      
+      <Label Text="Rīgā"
+             HorizontalOptions="Center"
+             FontSize="30"
+             FontAttributes="Bold"
+             TextColor="White"
+             BackgroundColor="#03a9f4"/>
+      
       <ListView x:Name="AllPlacesListView" VerticalOptions="FillAndExpand">
         <ListView.ItemTemplate>
           <DataTemplate>
@@ -12,7 +19,14 @@
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
-      <Label Text="Latvijā" />
+      
+      <Label Text="Latvijā" 
+             HorizontalOptions="Center"
+             FontSize="30"
+             FontAttributes="Bold"
+             TextColor="White"
+             BackgroundColor="#03a9f4"/>
+      
         <ListView x:Name="VisiKinoList" VerticalOptions="FillAndExpand">
           <ListView.ItemTemplate>
             <DataTemplate>
