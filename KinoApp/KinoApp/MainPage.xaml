@@ -13,6 +13,10 @@
             TextColor="White"
             BackgroundColor="Red"
             Clicked="LogInClicked"/>
+    <Button Text="Kino"
+            TextColor="White"
+            BackgroundColor="Red"
+            Clicked="UzKino"/>
           
           </StackLayout>
 
