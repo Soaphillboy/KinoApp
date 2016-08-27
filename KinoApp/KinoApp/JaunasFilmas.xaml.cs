@@ -32,7 +32,7 @@ namespace KinoApp
                     Name = "Item 4"
                 }, new Cinema()
                 {
-                    Description = "Item 5",
+                   Description = "Item 5",
                     Name = "Item 5"
                 }, new Cinema()
                 {
