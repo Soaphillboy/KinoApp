@@ -19,41 +19,41 @@ namespace KinoApp
                 new Cinema()
                 {
                     Description = "Item 1",
-                    Name = "Item 1"
+                    Name = "Forum Cinemas"
                 },
                 new Cinema()
                 {
                     Description = "Item 2",
-                    Name = "Item 2"
+                    Name = "Cinamon"
                 },
                 new Cinema()
                 {
                     Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Name = "Kino suns"
+                }, new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Description = "Item 4",
+                    Name = "Gaisma"
+                }, new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Description = "Item 5",
+                    Name = "Gaisma"
+                }, new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Description = "Item 6",
+                    Name = "Rio"
+                }, new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Description = "Item 7",
+                    Name = "Multikino"
+                }, new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Description = "Item 8",
+                    Name = "Item 8"
+                }, new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
+                    Description = "Item 9",
+                    Name = "Item 9"
                 }
             };
 

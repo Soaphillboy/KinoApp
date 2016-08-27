@@ -8,7 +8,7 @@
         <ListView.ItemTemplate>
           <DataTemplate>
             <TextCell Text="{Binding Name}" Detail="{Binding Description}"></TextCell>
-            <ImageCell></ImageCell>
+            <!--<ImageCell></ImageCell>-->
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
