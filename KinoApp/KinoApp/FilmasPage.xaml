@@ -2,5 +2,14 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KinoApp.FilmasPage">
-  
+  <NavigationPage Title="Jaunākās" >
+    <x:Arguments>
+      <JaunasFilmas />
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="Jaunākās" >
+    <x:Arguments>
+      <TopFilmas />
+    </x:Arguments>
+  </NavigationPage>
 </TabbedPage>
