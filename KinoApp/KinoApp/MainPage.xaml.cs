@@ -17,5 +17,9 @@ namespace KinoApp
         {
             await Navigation.PushAsync(new FilmasPage());
         }
+        async void UzKino(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Kinoteatri());
+        }
     }
 }
