@@ -7,9 +7,6 @@
   <StackLayout Padding="50"
                Spacing="20"
                VerticalOptions="Center">
-    
-    
-    
    
     <Button Text="Filmas"
             TextColor="White"
