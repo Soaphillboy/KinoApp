@@ -67,7 +67,7 @@ namespace KinoApp
             var item = e.SelectedItem as Cinema;
 
             if (item != null)
-            { 
+            {
                 Navigation.PushAsync(new FilmasDetails());
 
             }
