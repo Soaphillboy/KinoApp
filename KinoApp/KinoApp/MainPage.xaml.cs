@@ -13,5 +13,9 @@ namespace KinoApp
         {
             InitializeComponent();
         }
+        async void LogInClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FilmasPage());
+        }
     }
 }

@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace random
 {
-    public partial class JaunasFilmas : ContentPage
+    public partial class TopFilmas : ContentPage
     {
-        public JaunasFilmas()
+        public TopFilmas()
         {
             InitializeComponent();
         }

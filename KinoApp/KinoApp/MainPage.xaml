@@ -3,5 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:KinoApp"
              x:Class="KinoApp.MainPage">
+  <StackLayout Padding="50"
+               Spacing="20">
+  <Label Text="Čau Artemij!"
+         TextColor="Purple"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+    <Button Text="Log in"
+            TextColor="White"
+            BackgroundColor="Red"
+            Clicked="LogInClicked"/>
+          
+          </StackLayout>
 
 </ContentPage>

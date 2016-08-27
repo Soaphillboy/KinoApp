@@ -12,9 +12,10 @@ namespace KinoApp
     {
         public FilmasPage()
         {
-            var navigationPage = new NavigationPage(new JaunasFilmas());
-            navigationPage.Title = "Jaunākās";
-
+            InitializeComponent();
         }
+
+         
+
     }
 }
