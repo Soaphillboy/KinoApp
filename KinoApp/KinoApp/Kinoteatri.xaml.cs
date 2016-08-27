@@ -37,38 +37,11 @@ namespace KinoApp
                     Name = "Kino Suns"
                 },
             };
-            var masterPageItems2 = new List<AllCinema>
-            {
-                new AllCinema()
-                {
-                    Name = "Gaisma",
-                    Description = "Valmiera"
-                },
-                new AllCinema()
-                {
-                    Name = "Silver screen",
-                    Description = "Daugavpils"
-                },
-                new AllCinema()
-                {
-                    Name = "Silver screen",
-                    Description = "Rezekne"
-                },
-                new AllCinema()
-                {
-                    Name = "Lora",
-                    Description = "Sigulda"
-                },
-                new AllCinema()
-                {
-                    Name = "Balle",
-                    Description = "Liepaja"
-                },
-            };
+           
 
 
             AllPlacesListView.ItemsSource = masterPageItems;
-            VisiKinoList.ItemsSource = masterPageItems2;
+
         }
     }
     

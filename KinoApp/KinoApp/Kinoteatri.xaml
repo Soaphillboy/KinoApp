@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="KinoApp.Kinoteatri">
+             x:Class="KinoApp.Kinoteatri"
+             Title="Rīgā">
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand">
-      
-      <Label Text="Rīgā"
-             HorizontalOptions="CenterAndExpand"
-             FontSize="15"
-             FontAttributes="Bold"
-             TextColor="White"
-             BackgroundColor="Blue"/>
       
       <ListView x:Name="AllPlacesListView" VerticalOptions="FillAndExpand">
         <ListView.ItemTemplate>
@@ -20,21 +14,6 @@
         </ListView.ItemTemplate>
       </ListView>
       
-      <Label HorizontalOptions="CenterAndExpand"
-             Text="Latvijā" 
-             FontSize="15"
-             FontAttributes="Bold"
-             TextColor="White"
-             BackgroundColor="Blue"/>
-      
-        <ListView x:Name="VisiKinoList" VerticalOptions="FillAndExpand">
-          <ListView.ItemTemplate>
-            <DataTemplate>
-              <TextCell Text="{Binding Name}" Detail="{Binding Description}"></TextCell>
-            </DataTemplate>
-          </ListView.ItemTemplate>
-        </ListView>
-        
     </StackLayout>
   </ContentPage.Content>
 
