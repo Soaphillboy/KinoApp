@@ -1,9 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="KinoApp.FilmasDetails">
-  <Image Source="suicidesquad.png.jpg"
-         >
-    
-  </Image>
-</ContentPage>
+             x:Class="KinoApp.FilmasDetails"
+             >
+  <Scrollview>
+    <StackLayout Spacing="11">
+      <Image Source="suicidesquad.png.jpg">
+      </Image>
+      <Label HorizontalOptions="Start" FontSize="25" FontAttributes="Bold">Suicide Squad</Label>
+      <Label FontSize="16">Cik labi ir būt sliktam! Pasaules lielākie ļaundari apvienoti valdības specvienībā, lai uzņemtos grūtākās, pašnāvnieciskākās misijas. Tā ir vienīgā iespēja apturēt Džokeru, jo pat Betmens nevar to izdarīt. Ja Tev nebūtu, ko zaudēt, arī Tu būtu gatavs uz visu!</Label>
+
+
+
+
+    </StackLayout>
+  </Scrollview>
+  </ContentPage>
