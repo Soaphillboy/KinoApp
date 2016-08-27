@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:KinoApp"
              x:Class="KinoApp.MainPage">
 
-  <Label Text="Welcome to Xamarin Fokifjigdsfrms!"
+  <Label Text="Čau Artemij!"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
