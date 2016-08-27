@@ -18,44 +18,54 @@ namespace KinoApp
             {
                 new Cinema()
                 {
-                    Description = "Item 1",
-                    Name = "Item 1"
+                    Name = "ForumCinemas"
                 },
                 new Cinema()
                 {
-                    Description = "Item 2",
-                    Name = "Item 2"
+                    Name = "Cinamon"
                 },
                 new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Name = "Multikino"
+                },
+                new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
+                    Name = "Splendid Palace"
+                },
+                new Cinema()
                 {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
-                {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
-                {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
-                {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                } new Cinema()
-                {
-                    Description = "Item 3",
-                    Name = "Item 3"
-                }
+                    Name = "Kino Suns"
+                },
             };
+            var masterPageItems2 = new List<AllCinema>
+            {
+                new AllCinema()
+                {
+                    Name = "",
+                    Description = ""
+                },
+                new AllCinema()
+                {
+                    Name = "",
+                    Description = ""
+                },
+                new AllCinema()
+                {
+                    Name = "",
+                    Description = ""
+                },
+                new AllCinema()
+                {
+                    Name = "",
+                    Description = ""
+                },
+                new AllCinema()
+                {
+                    Name = "",
+                    Description = ""
+                },
+            };
+
 
             AllPlacesListView.ItemsSource = masterPageItems;
         }
