@@ -6,11 +6,11 @@
     <StackLayout VerticalOptions="FillAndExpand">
       
       <Label Text="Rīgā"
-             HorizontalOptions="Center"
-             FontSize="30"
+             HorizontalOptions="CenterAndExpand"
+             FontSize="15"
              FontAttributes="Bold"
              TextColor="White"
-             BackgroundColor="#03a9f4"/>
+             BackgroundColor="Blue"/>
       
       <ListView x:Name="AllPlacesListView" VerticalOptions="FillAndExpand">
         <ListView.ItemTemplate>
@@ -20,12 +20,12 @@
         </ListView.ItemTemplate>
       </ListView>
       
-      <Label Text="Latvijā" 
-             HorizontalOptions="Center"
-             FontSize="30"
+      <Label HorizontalOptions="CenterAndExpand"
+             Text="Latvijā" 
+             FontSize="15"
              FontAttributes="Bold"
              TextColor="White"
-             BackgroundColor="#03a9f4"/>
+             BackgroundColor="Blue"/>
       
         <ListView x:Name="VisiKinoList" VerticalOptions="FillAndExpand">
           <ListView.ItemTemplate>
