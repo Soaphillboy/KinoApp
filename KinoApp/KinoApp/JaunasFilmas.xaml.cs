@@ -18,8 +18,8 @@ namespace KinoApp
             {
                 new Cinema()
                 {
-                    Description = "Item 1",
-                    Name = "Item 1"
+                    Description = "Suicide Squad",
+                    Name = "Pasnavnieku vieniba"
                 },
                 new Cinema()
                 {

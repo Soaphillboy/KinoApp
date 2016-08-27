@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KinoApp.FilmasDetails"
              >
-  <Scrollview>
+  <ScrollView>
     <StackLayout Spacing="11">
       <Image Source="suicidesquad.png.jpg">
       </Image>
@@ -14,5 +14,5 @@
 
 
     </StackLayout>
-  </Scrollview>
-  </ContentPage>
+  </ScrollView>
+</ContentPage>
