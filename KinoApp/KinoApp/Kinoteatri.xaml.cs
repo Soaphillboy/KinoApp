@@ -68,6 +68,7 @@ namespace KinoApp
 
 
             AllPlacesListView.ItemsSource = masterPageItems;
+            VisiKinoList.ItemsSource = masterPageItems2;
         }
     }
     
