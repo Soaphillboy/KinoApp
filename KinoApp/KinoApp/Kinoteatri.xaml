@@ -4,14 +4,23 @@
              x:Class="KinoApp.Kinoteatri">
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand">
-      <ListView x:Name="AllPlacesListView" VerticalOptions="FillAndExpand" SeparatorVisibility="None">
+      <Label Text="Rīgā" />
+      <ListView x:Name="AllPlacesListView" VerticalOptions="FillAndExpand">
         <ListView.ItemTemplate>
           <DataTemplate>
             <TextCell Text="{Binding Name}" Detail="{Binding Description}"></TextCell>
-            <!--<ImageCell></ImageCell>-->
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
+      <Label Text="Latvijā" />
+        <ListView x:Name="VisiKinoList" VerticalOptions="FillAndExpand">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <TextCell Text="{Binding Name}" Detail="{Binding Description}"></TextCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+        
     </StackLayout>
   </ContentPage.Content>
 

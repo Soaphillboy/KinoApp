@@ -3,5 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KinoApp.JaunasFilmas"
              Title="Jaunākās">
+  <StackLayout VerticalOptions="FillAndExpand">
+    <ListView x:Name="JaunasFilmasList" VerticalOptions="FillAndExpand">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <TextCell Text="{Binding Name}" Detail="{Binding Description}"></TextCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
 
 </ContentPage>

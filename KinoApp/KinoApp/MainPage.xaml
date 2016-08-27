@@ -5,15 +5,11 @@
              x:Class="KinoApp.MainPage">
   <StackLayout Padding="50"
                Spacing="20">
-  <Label Text="Čau Artemij!"
-         TextColor="Purple"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
-    <Button Text="Log in"
+    <Button Text="Filmas"
             TextColor="White"
             BackgroundColor="Red"
             Clicked="LogInClicked"/>
-    <Button Text="Kino"
+    <Button Text="Kinoteātri"
             TextColor="White"
             BackgroundColor="Red"
             Clicked="UzKino"/>
